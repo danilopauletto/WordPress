@@ -1,0 +1,168 @@
+/* 
+
+	Arquivo CSS geral com estilos dos elementos de todas páginas 
+
+*/
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	font-size: 62.5%; /* equivalente a 10px */
+}
+
+body {
+	background-color: white;
+}
+
+h1 {
+	font-size: 2rem;
+  font-family:'Times New Roman', Times, serif
+}
+
+h2 {
+	font-size: 1.8rem;
+}
+
+form {
+	background: #eee;
+	padding: 10px;
+  align-self: auto;
+  width: 100%;
+}
+
+form div {
+	background: #fff;
+	border-bottom: 1px solid rgb(34, 91, 33);
+	margin: 1rem;
+	padding: 2rem;
+}
+
+label {
+	margin-bottom: 1rem;
+	font-size: 1.4rem; 
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: rgb(0, 0, 0);
+}
+
+input {
+	padding: 1rem;
+}
+
+[type="text"], [type="email"], textarea, label {
+	display: block;
+	width: 100%;
+}
+
+.formulario{
+  width: 100%;
+
+}
+header {
+  background-color: #333;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+article {
+  background-color: lightgray;
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+
+article .form01 {
+  width: 100%;
+}
+
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+}
+
+.coluna { 
+  display: block;
+  width: 100%;
+  float: center;
+  padding: 100px;
+  text-align: center;
+ /* background: beige;
+  border: 1px solid black;*/
+}
+
+iframe{
+  width: 100%;
+  height: 500px;
+}
+
+
+/*Mobile first*/
+
+@media(min-width: 769px) {
+  body {
+    background-color: green;
+  }
+}
+
+@media (max-width: 768px) {
+  nav {
+    width: 30vw;
+  }
+
+  article {
+    width: 70vw
+  }
+
+  .coluna {
+    width:50%
+  }
+}
+
+@media (max-width: 425px){
+  nav,
+  article,
+  .coluna {
+    width:100%
+    min-width 320px,
+}
+
+
+}
+
+
+
+
+  

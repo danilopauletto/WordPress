@@ -1,0 +1,64 @@
+
+
+html {
+
+}
+
+
+/* Círculo*/
+#grafico-01 {
+    background-color: brown;
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10%;
+    margin: 2px auto;
+}
+
+#grafico-01 img {
+    width: 100%;
+}
+
+#grafico-02 {
+    background-color: brown;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 90%;
+    margin: 2px auto;
+}
+
+#grafico-02 img {
+    width: 100%;
+    height: auto;
+    margin: 2px auto;
+
+}
+
+
+#imagem-vetorial {
+    width: 100px;
+}
+
+#canvas {
+    height: 300px;
+    width: 300px;
+}
+
+
+#grafico-02 {
+    filter: drop-shadow(8px 8px 12px grey);
+}
+
+
+
+.filtro {
+    filter: grayscale(100%);
+    filter: blur(5px);
+    filter: brightness(100%);
+}
+
+.filtro:hover { 
+    filter: grayscale(100%);
+}
+
